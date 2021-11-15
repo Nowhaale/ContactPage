@@ -1,0 +1,105 @@
+.contact_page {
+  background-image:url(file:///C:/Users/Andrei/Desktop/Contact%20page/Blinding%20Lights%20Background.jpg);
+  background-position: 0px 0px;
+  background-size:cover;
+  background-repeat:repeat;
+  background-attachment: fixed;
+}
+
+.navbar {
+    font-family: Lato;
+    font-size:16px;
+  }
+   
+  .navbar li a, .navbar{
+    color:white !important;
+  }
+  
+  .navbar-brand {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+    color: white !important;
+    font-size: 25px !important;
+  }
+  
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color:black !important;
+      background-color:white !important;
+
+      
+  }
+
+  .logo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .logo ul {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .logo ul li a {
+      color:white;
+      font-family: Impact;
+      font-size: 100px;
+      position:static;
+      letter-spacing: 5px;
+      text-decoration:none;
+      width: 100%;
+    }
+
+.contact {
+  background-color: black;
+  width: 350px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: groove;
+}
+
+.contact h1 {
+  color: black;
+  font-family: Lato;
+  font-weight:bold;
+  margin-left: 35px;
+  margin-right: auto;
+  background-color: white;
+  width: fit-content;
+}
+
+.contact label {
+  color: white;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact input {
+  width: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.contact button {
+  background-color: white;
+  color: black;
+  width: 300px;
+  padding: 5px;
+  font-size: 20px;
+
+}
+
+@media(max-width: 768px) {
+  .logo ul li {
+    margin-left: auto;
+    margin-right: auto;}
+
+    .contact_page ul li{
+      float:none;
+      clear: both;
+      text-align: center;
+    }
+}
